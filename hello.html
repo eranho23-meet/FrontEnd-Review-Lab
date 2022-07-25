@@ -10,7 +10,13 @@
   	<a href="https://en.wikipedia.org/wiki/Shallot" >
   	  <img src='shallot_cut.webp' style="width: 200px;" id='borderThis'></img>
   	</a>
+  	<br>
   	<button onclick="changeBackgroundColor()">toggle colors</button>
-	<script src="main.js"></script>
+  	<br>
+  	<form> 
+  		<input type="text" id="inColor" ></input>
+  	</form>
+  	<button onclick="toggleBackgroundColor(document.getElementById('inColor').value)">click this for a custom color</button>
+	<script src="main.js" ></script
   </body>
 </html>

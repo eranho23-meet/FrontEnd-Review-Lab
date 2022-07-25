@@ -13,6 +13,10 @@ function changeBackgroundColor(){
 	}
 	else {
 		document.body.style.backgroundColor = "#debeef";
-	
 	}
+}
+
+
+function toggleBackgroundColor(color){
+	document.body.style.backgroundColor = color
 }
